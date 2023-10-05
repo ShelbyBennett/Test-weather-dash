@@ -1,0 +1,86 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* ?STYLES FOR HEADER */
+header{
+    background-color: #7BAFD4;
+    padding:20px;
+}
+h1, #today-date{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+/* ?STYLES THE INPUT FORM AND SEARCH-HISTORY CONTAINER*/
+form{
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+#search-btn{
+    background-color: #4281a4;
+    color:#e5e5e5
+}
+.search-history{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+ }
+ .history-btn{
+    background-color: #a5be00;
+    color:whitesmoke;
+ }
+
+ /* ?STYLES FOR WEATHER COLUMN */
+.col-md-9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ?STYLES FOR CURRENT WEATHER */
+.main-card{
+    width: 43vw;
+    margin-left: 15vw;
+    margin-top: 3vh;
+}
+
+.main-body p{
+    font-size: 1.4rem;
+    margin-left: 4vw;;
+}
+
+
+/* ?STYLES FOR FORECAST WEATHER */
+.forecast{
+    display:flex;
+    justify-content: center;
+    gap:2vw;
+    margin-top: 3vh;
+}
+
+/* ?STYLES FOR BOTH TYPES OF WEATHER */
+
+h5, h2{
+    text-align: center;
+}
+
+.card-header{
+    background-color: #7BAFD4;
+    color:whitesmoke;
+}
+ .card-body{
+    background-color: #ebf2fa;
+    color: #353839 ;
+ }
+ .labels{
+    font-weight: bold;
+    color: #353839 ;
+}
